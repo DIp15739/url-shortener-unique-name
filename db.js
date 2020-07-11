@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 //MONGO_URI
 const MONGO_URI =
   process.env.MONGO_URI ||
-  "mongodb+srv://admin:Dip.15739@cluster0-drsba.mongodb.net/<url>?retryWrites=true&w=majority";
+  "add db url";
 
 //Connect to DB function
 const connect = () => {
