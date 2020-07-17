@@ -30,7 +30,7 @@ app.get('/:unique_name', openShortLink);
 
 /** NB: process.env.PORT is required as you would 
 not be able to set the port manually in production */
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 //app to listen to specified port
 app.listen(PORT, () => {
